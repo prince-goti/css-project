@@ -1,0 +1,82 @@
+body{
+    background-image:url("./photos3/backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Red Rose", cursive;
+}
+
+.header{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+.one{
+    height: 40px;
+    width: 150px;
+}
+nav ul{
+    margin-left: 250px;
+    word-spacing: 50px;
+    align-items: center;
+    font-weight: 600;
+    font-size:15px;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffc233;
+    font-family: "Red Rose";
+}
+
+.order{
+    margin-left: 400px;
+    align-items: center;
+    padding:7px 25px;
+    background-color: #ff505f;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+
+h1{
+    text-align: center;
+    font-weight:lighter;
+    font-size: 65px;
+    color: #ffc233;
+    font-family: "Dela Gothic One", cursive;
+    
+}
+ .menu{
+    
+    margin-left:600px;
+    padding: 10px 20px;
+    font-size: medium;
+    background-color: #ff505f;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 1px;
+    margin-bottom: 70px;
+    font-family: "Red Rose";
+ }
+
+ .two{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+ }
+  button:hover{
+          background-color: #ffffff;
+          color: #ff505f ;
+  }
+
+  .two:hover{
+    height: 150px;
+    width: 150px;
+  }

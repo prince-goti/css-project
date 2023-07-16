@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #aac3e9;
+    /* overflow: hidden; */
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    column-gap:20%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 20px; 
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.nav{
+     word-spacing: 70px;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.search{
+     font-weight: 700;
+    font-size: 20px; 
+}
+button{
+    width:100px;    
+}
+button:hover{
+    background-color: gray;
+    color: black;
+    font-weight: 100;
+}
+
+.main{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 70px;
+
+}
+.left{
+       height: 500px;
+       width: 800px;
+       font-size: x-large;
+       justify-content: center;
+       align-items: center;
+       
+}
+span{
+    color:rgb(142, 177, 74);
+}
+h1{
+    line-height: 70px;
+}
+.right{
+    display: grid;
+    position: absolute;
+    top: 150px;
+    right: 60px;
+}
+img{
+    height: 300px;
+    width:300px;
+}
+.chat{
+    justify-self:center ;
+    position: relative;
+    top: 20px;
+    width: 150px;
+
+}
+
+footer{
+    width: 90%;
+    margin-left: 70px;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+.lnk{
+    
+    display: flex;
+    position:absolute ;
+    left: 900px;
+    word-spacing: 30px;
+
+}   
